@@ -1,0 +1,81 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
+.row{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+article{
+   font-size: 120%;
+   border: 1px solid;
+   background-color: #A2ADD0;
+}
+h1{
+   font-size: 22px;
+   font-size: 140%;
+   text-align: center;
+}
+.zm{
+   font-size: 140%;
+   text-align: center;
+}
+.back{
+   font-style: italic;
+}
+a:link, a:visited  {
+   text-decoration: none;
+   background-color:  blue;
+   border: 2px solid   rgb(0, 0, 0);
+   color:black;
+   display: block;
+   width: 280px;
+   text-align: center;
+   margin-bottom: 1px;
+}
+a:hover{
+   background-color:magenta;
+   color:red;
+}
+a:active{
+   background-color: yellow;
+   color:rgb(18, 149, 99);
+}
+.info2, .dutunstvo2, .school2, .psila_scholl2, .universetet2{
+   text-align: center;
+   font-weight: bold;
+   font-size: 120%;
+}
+.info3{
+   background-color: goldenrod;
+   color: floralwhite;
+}
+.dutunstvo3{
+   background-color: yellowgreen;
+   color: black;
+}
+.school3{
+   background-color: khaki;
+   color: midnightblue
+}
+.psila_scholl3{
+   background-color: royalblue;
+   color: red;
+}
+.universetet3{
+   background-color: yellow;
+   color: slateblue;
+}
+.top{
+   text-transform: uppercase;
+}
+.do_zmisty{
+   font-weight: bold;
+}
+.info3, .dutunstvo3, .school3, .psila_scholl3, .universetet3{
+   font-weight: normal;
+}
